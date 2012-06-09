@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3FABC0F1583491800B2DB5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FABC0E1583491800B2DB5E /* UIKit.framework */; };
+		B3FABC111583491800B2DB5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FABC101583491800B2DB5E /* Foundation.framework */; };
+		B3FABC131583491800B2DB5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FABC121583491800B2DB5E /* CoreGraphics.framework */; };
+		B3FABC191583491800B2DB5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3FABC171583491800B2DB5E /* InfoPlist.strings */; };
+		B3FABC1B1583491800B2DB5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FABC1A1583491800B2DB5E /* main.m */; };
+		B3FABC1F1583491800B2DB5E /* NoMoreJamAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FABC1E1583491800B2DB5E /* NoMoreJamAppDelegate.m */; };
+		B3FABC221583491800B2DB5E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FABC201583491800B2DB5E /* MainStoryboard.storyboard */; };
+		B3FABC251583491800B2DB5E /* NoMoreJamFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FABC241583491800B2DB5E /* NoMoreJamFirstViewController.m */; };
+		B3FABC271583491800B2DB5E /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B3FABC261583491800B2DB5E /* first.png */; };
+		B3FABC291583491800B2DB5E /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3FABC281583491800B2DB5E /* first@2x.png */; };
+		B3FABC2C1583491800B2DB5E /* NoMoreJamSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FABC2B1583491800B2DB5E /* NoMoreJamSecondViewController.m */; };
+		B3FABC2E1583491800B2DB5E /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B3FABC2D1583491800B2DB5E /* second.png */; };
+		B3FABC301583491800B2DB5E /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3FABC2F1583491800B2DB5E /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B3FABC0A1583491800B2DB5E /* NoMoreJam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoMoreJam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3FABC0E1583491800B2DB5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3FABC101583491800B2DB5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3FABC121583491800B2DB5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3FABC161583491800B2DB5E /* NoMoreJam-Info.plist */ = {isa = PBXFileReference; path = "NoMoreJam-Info.plist"; sourceTree = "<group>"; };
+		B3FABC181583491800B2DB5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3FABC1A1583491800B2DB5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3FABC1C1583491800B2DB5E /* NoMoreJam-Prefix.pch */ = {isa = PBXFileReference; path = "NoMoreJam-Prefix.pch"; sourceTree = "<group>"; };
+		B3FABC1D1583491800B2DB5E /* NoMoreJamAppDelegate.h */ = {isa = PBXFileReference; path = NoMoreJamAppDelegate.h; sourceTree = "<group>"; };
+		B3FABC1E1583491800B2DB5E /* NoMoreJamAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoMoreJamAppDelegate.m; sourceTree = "<group>"; };
+		B3FABC211583491800B2DB5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B3FABC231583491800B2DB5E /* NoMoreJamFirstViewController.h */ = {isa = PBXFileReference; path = NoMoreJamFirstViewController.h; sourceTree = "<group>"; };
+		B3FABC241583491800B2DB5E /* NoMoreJamFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoMoreJamFirstViewController.m; sourceTree = "<group>"; };
+		B3FABC261583491800B2DB5E /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		B3FABC281583491800B2DB5E /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		B3FABC2A1583491800B2DB5E /* NoMoreJamSecondViewController.h */ = {isa = PBXFileReference; path = NoMoreJamSecondViewController.h; sourceTree = "<group>"; };
+		B3FABC2B1583491800B2DB5E /* NoMoreJamSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoMoreJamSecondViewController.m; sourceTree = "<group>"; };
+		B3FABC2D1583491800B2DB5E /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		B3FABC2F1583491800B2DB5E /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3FABC071583491800B2DB5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FABC0F1583491800B2DB5E /* UIKit.framework in Frameworks */,
+				B3FABC111583491800B2DB5E /* Foundation.framework in Frameworks */,
+				B3FABC131583491800B2DB5E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3FABBFF1583491800B2DB5E = {
+			isa = PBXGroup;
+			children = (
+				B3FABC141583491800B2DB5E /* NoMoreJam */,
+				B3FABC0D1583491800B2DB5E /* Frameworks */,
+				B3FABC0B1583491800B2DB5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3FABC0B1583491800B2DB5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3FABC0A1583491800B2DB5E /* NoMoreJam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3FABC0D1583491800B2DB5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3FABC0E1583491800B2DB5E /* UIKit.framework */,
+				B3FABC101583491800B2DB5E /* Foundation.framework */,
+				B3FABC121583491800B2DB5E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3FABC141583491800B2DB5E /* NoMoreJam */ = {
+			isa = PBXGroup;
+			children = (
+				B3FABC1D1583491800B2DB5E /* NoMoreJamAppDelegate.h */,
+				B3FABC1E1583491800B2DB5E /* NoMoreJamAppDelegate.m */,
+				B3FABC201583491800B2DB5E /* MainStoryboard.storyboard */,
+				B3FABC231583491800B2DB5E /* NoMoreJamFirstViewController.h */,
+				B3FABC241583491800B2DB5E /* NoMoreJamFirstViewController.m */,
+				B3FABC261583491800B2DB5E /* first.png */,
+				B3FABC281583491800B2DB5E /* first@2x.png */,
+				B3FABC2A1583491800B2DB5E /* NoMoreJamSecondViewController.h */,
+				B3FABC2B1583491800B2DB5E /* NoMoreJamSecondViewController.m */,
+				B3FABC2D1583491800B2DB5E /* second.png */,
+				B3FABC2F1583491800B2DB5E /* second@2x.png */,
+				B3FABC151583491800B2DB5E /* Supporting Files */,
+			);
+			path = NoMoreJam;
+			sourceTree = "<group>";
+		};
+		B3FABC151583491800B2DB5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3FABC161583491800B2DB5E /* NoMoreJam-Info.plist */,
+				B3FABC171583491800B2DB5E /* InfoPlist.strings */,
+				B3FABC1A1583491800B2DB5E /* main.m */,
+				B3FABC1C1583491800B2DB5E /* NoMoreJam-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3FABC091583491800B2DB5E /* NoMoreJam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3FABC331583491800B2DB5E /* Build configuration list for PBXNativeTarget "NoMoreJam" */;
+			buildPhases = (
+				B3FABC061583491800B2DB5E /* Sources */,
+				B3FABC071583491800B2DB5E /* Frameworks */,
+				B3FABC081583491800B2DB5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoMoreJam;
+			productName = NoMoreJam;
+			productReference = B3FABC0A1583491800B2DB5E /* NoMoreJam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3FABC011583491800B2DB5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NoMoreJam;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B3FABC041583491800B2DB5E /* Build configuration list for PBXProject "NoMoreJam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3FABBFF1583491800B2DB5E;
+			productRefGroup = B3FABC0B1583491800B2DB5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3FABC091583491800B2DB5E /* NoMoreJam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3FABC081583491800B2DB5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FABC191583491800B2DB5E /* InfoPlist.strings in Resources */,
+				B3FABC221583491800B2DB5E /* MainStoryboard.storyboard in Resources */,
+				B3FABC271583491800B2DB5E /* first.png in Resources */,
+				B3FABC291583491800B2DB5E /* first@2x.png in Resources */,
+				B3FABC2E1583491800B2DB5E /* second.png in Resources */,
+				B3FABC301583491800B2DB5E /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3FABC061583491800B2DB5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FABC1B1583491800B2DB5E /* main.m in Sources */,
+				B3FABC1F1583491800B2DB5E /* NoMoreJamAppDelegate.m in Sources */,
+				B3FABC251583491800B2DB5E /* NoMoreJamFirstViewController.m in Sources */,
+				B3FABC2C1583491800B2DB5E /* NoMoreJamSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3FABC171583491800B2DB5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3FABC181583491800B2DB5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B3FABC201583491800B2DB5E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3FABC211583491800B2DB5E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3FABC311583491800B2DB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3FABC321583491800B2DB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3FABC341583491800B2DB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoMoreJam/NoMoreJam-Prefix.pch";
+				INFOPLIST_FILE = "NoMoreJam/NoMoreJam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B3FABC351583491800B2DB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoMoreJam/NoMoreJam-Prefix.pch";
+				INFOPLIST_FILE = "NoMoreJam/NoMoreJam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3FABC041583491800B2DB5E /* Build configuration list for PBXProject "NoMoreJam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FABC311583491800B2DB5E /* Debug */,
+				B3FABC321583491800B2DB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3FABC331583491800B2DB5E /* Build configuration list for PBXNativeTarget "NoMoreJam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3FABC341583491800B2DB5E /* Debug */,
+				B3FABC351583491800B2DB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3FABC011583491800B2DB5E /* Project object */;
+}
