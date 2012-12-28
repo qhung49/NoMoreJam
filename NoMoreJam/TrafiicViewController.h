@@ -1,5 +1,5 @@
 //
-//  NoMoreJamFirstViewController.h
+//  NoMoreJamSecondViewController.h
 //  NoMoreJam
 //
 //  Created by Hung Mai on 9/6/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NoMoreJamFirstViewController : UIViewController
+@interface TrafiicViewController : UIViewController
 
 @end

@@ -14,12 +14,11 @@
 		B3FABC1B1583491800B2DB5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FABC1A1583491800B2DB5E /* main.m */; };
 		B3FABC1F1583491800B2DB5E /* NoMoreJamAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FABC1E1583491800B2DB5E /* NoMoreJamAppDelegate.m */; };
 		B3FABC221583491800B2DB5E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FABC201583491800B2DB5E /* MainStoryboard.storyboard */; };
-		B3FABC251583491800B2DB5E /* NoMoreJamFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FABC241583491800B2DB5E /* NoMoreJamFirstViewController.m */; };
-		B3FABC271583491800B2DB5E /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B3FABC261583491800B2DB5E /* first.png */; };
-		B3FABC291583491800B2DB5E /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3FABC281583491800B2DB5E /* first@2x.png */; };
-		B3FABC2C1583491800B2DB5E /* NoMoreJamSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FABC2B1583491800B2DB5E /* NoMoreJamSecondViewController.m */; };
-		B3FABC2E1583491800B2DB5E /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B3FABC2D1583491800B2DB5E /* second.png */; };
-		B3FABC301583491800B2DB5E /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3FABC2F1583491800B2DB5E /* second@2x.png */; };
+		B3FABC251583491800B2DB5E /* ReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FABC241583491800B2DB5E /* ReportViewController.m */; };
+		B3FABC2C1583491800B2DB5E /* TrafiicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FABC2B1583491800B2DB5E /* TrafiicViewController.m */; };
+		B3FABC3715834B2300B2DB5E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FABC3615834B2300B2DB5E /* CoreLocation.framework */; };
+		B3FABC3915834B2800B2DB5E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3FABC3815834B2800B2DB5E /* MapKit.framework */; };
+		B3FABC3C15835C5300B2DB5E /* JamAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FABC3B15835C5300B2DB5E /* JamAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,21 +26,21 @@
 		B3FABC0E1583491800B2DB5E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B3FABC101583491800B2DB5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B3FABC121583491800B2DB5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B3FABC161583491800B2DB5E /* NoMoreJam-Info.plist */ = {isa = PBXFileReference; path = "NoMoreJam-Info.plist"; sourceTree = "<group>"; };
+		B3FABC161583491800B2DB5E /* NoMoreJam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NoMoreJam-Info.plist"; sourceTree = "<group>"; };
 		B3FABC181583491800B2DB5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B3FABC1A1583491800B2DB5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B3FABC1C1583491800B2DB5E /* NoMoreJam-Prefix.pch */ = {isa = PBXFileReference; path = "NoMoreJam-Prefix.pch"; sourceTree = "<group>"; };
-		B3FABC1D1583491800B2DB5E /* NoMoreJamAppDelegate.h */ = {isa = PBXFileReference; path = NoMoreJamAppDelegate.h; sourceTree = "<group>"; };
+		B3FABC1C1583491800B2DB5E /* NoMoreJam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NoMoreJam-Prefix.pch"; sourceTree = "<group>"; };
+		B3FABC1D1583491800B2DB5E /* NoMoreJamAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoMoreJamAppDelegate.h; sourceTree = "<group>"; };
 		B3FABC1E1583491800B2DB5E /* NoMoreJamAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoMoreJamAppDelegate.m; sourceTree = "<group>"; };
 		B3FABC211583491800B2DB5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		B3FABC231583491800B2DB5E /* NoMoreJamFirstViewController.h */ = {isa = PBXFileReference; path = NoMoreJamFirstViewController.h; sourceTree = "<group>"; };
-		B3FABC241583491800B2DB5E /* NoMoreJamFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoMoreJamFirstViewController.m; sourceTree = "<group>"; };
-		B3FABC261583491800B2DB5E /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		B3FABC281583491800B2DB5E /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		B3FABC2A1583491800B2DB5E /* NoMoreJamSecondViewController.h */ = {isa = PBXFileReference; path = NoMoreJamSecondViewController.h; sourceTree = "<group>"; };
-		B3FABC2B1583491800B2DB5E /* NoMoreJamSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoMoreJamSecondViewController.m; sourceTree = "<group>"; };
-		B3FABC2D1583491800B2DB5E /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		B3FABC2F1583491800B2DB5E /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		B3FABC231583491800B2DB5E /* ReportViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReportViewController.h; sourceTree = "<group>"; };
+		B3FABC241583491800B2DB5E /* ReportViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReportViewController.m; sourceTree = "<group>"; };
+		B3FABC2A1583491800B2DB5E /* TrafiicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrafiicViewController.h; sourceTree = "<group>"; };
+		B3FABC2B1583491800B2DB5E /* TrafiicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrafiicViewController.m; sourceTree = "<group>"; };
+		B3FABC3615834B2300B2DB5E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B3FABC3815834B2800B2DB5E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B3FABC3A15835C5300B2DB5E /* JamAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; path = JamAnnotation.h; sourceTree = "<group>"; };
+		B3FABC3B15835C5300B2DB5E /* JamAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JamAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3FABC3915834B2800B2DB5E /* MapKit.framework in Frameworks */,
+				B3FABC3715834B2300B2DB5E /* CoreLocation.framework in Frameworks */,
 				B3FABC0F1583491800B2DB5E /* UIKit.framework in Frameworks */,
 				B3FABC111583491800B2DB5E /* Foundation.framework in Frameworks */,
 				B3FABC131583491800B2DB5E /* CoreGraphics.framework in Frameworks */,
@@ -78,6 +79,8 @@
 		B3FABC0D1583491800B2DB5E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B3FABC3815834B2800B2DB5E /* MapKit.framework */,
+				B3FABC3615834B2300B2DB5E /* CoreLocation.framework */,
 				B3FABC0E1583491800B2DB5E /* UIKit.framework */,
 				B3FABC101583491800B2DB5E /* Foundation.framework */,
 				B3FABC121583491800B2DB5E /* CoreGraphics.framework */,
@@ -88,17 +91,13 @@
 		B3FABC141583491800B2DB5E /* NoMoreJam */ = {
 			isa = PBXGroup;
 			children = (
-				B3FABC1D1583491800B2DB5E /* NoMoreJamAppDelegate.h */,
-				B3FABC1E1583491800B2DB5E /* NoMoreJamAppDelegate.m */,
+				B3FABC3A15835C5300B2DB5E /* JamAnnotation.h */,
+				B3FABC3B15835C5300B2DB5E /* JamAnnotation.m */,
 				B3FABC201583491800B2DB5E /* MainStoryboard.storyboard */,
-				B3FABC231583491800B2DB5E /* NoMoreJamFirstViewController.h */,
-				B3FABC241583491800B2DB5E /* NoMoreJamFirstViewController.m */,
-				B3FABC261583491800B2DB5E /* first.png */,
-				B3FABC281583491800B2DB5E /* first@2x.png */,
-				B3FABC2A1583491800B2DB5E /* NoMoreJamSecondViewController.h */,
-				B3FABC2B1583491800B2DB5E /* NoMoreJamSecondViewController.m */,
-				B3FABC2D1583491800B2DB5E /* second.png */,
-				B3FABC2F1583491800B2DB5E /* second@2x.png */,
+				B3FABC231583491800B2DB5E /* ReportViewController.h */,
+				B3FABC241583491800B2DB5E /* ReportViewController.m */,
+				B3FABC2A1583491800B2DB5E /* TrafiicViewController.h */,
+				B3FABC2B1583491800B2DB5E /* TrafiicViewController.m */,
 				B3FABC151583491800B2DB5E /* Supporting Files */,
 			);
 			path = NoMoreJam;
@@ -107,6 +106,8 @@
 		B3FABC151583491800B2DB5E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B3FABC1D1583491800B2DB5E /* NoMoreJamAppDelegate.h */,
+				B3FABC1E1583491800B2DB5E /* NoMoreJamAppDelegate.m */,
 				B3FABC161583491800B2DB5E /* NoMoreJam-Info.plist */,
 				B3FABC171583491800B2DB5E /* InfoPlist.strings */,
 				B3FABC1A1583491800B2DB5E /* main.m */,
@@ -168,10 +169,6 @@
 			files = (
 				B3FABC191583491800B2DB5E /* InfoPlist.strings in Resources */,
 				B3FABC221583491800B2DB5E /* MainStoryboard.storyboard in Resources */,
-				B3FABC271583491800B2DB5E /* first.png in Resources */,
-				B3FABC291583491800B2DB5E /* first@2x.png in Resources */,
-				B3FABC2E1583491800B2DB5E /* second.png in Resources */,
-				B3FABC301583491800B2DB5E /* second@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,8 +181,9 @@
 			files = (
 				B3FABC1B1583491800B2DB5E /* main.m in Sources */,
 				B3FABC1F1583491800B2DB5E /* NoMoreJamAppDelegate.m in Sources */,
-				B3FABC251583491800B2DB5E /* NoMoreJamFirstViewController.m in Sources */,
-				B3FABC2C1583491800B2DB5E /* NoMoreJamSecondViewController.m in Sources */,
+				B3FABC251583491800B2DB5E /* ReportViewController.m in Sources */,
+				B3FABC2C1583491800B2DB5E /* TrafiicViewController.m in Sources */,
+				B3FABC3C15835C5300B2DB5E /* JamAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
